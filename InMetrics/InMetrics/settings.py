@@ -1,5 +1,5 @@
 """
-Django settings for InDesign project.
+Django settings for InMetrics project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '47xkb#939ck)r9tl@&!b+qm1ue_*9#)vmoo8ea$5mhw*l0jb#u'
+SECRET_KEY = '3ebrga2#pq#f_@bm$zfob&m*wv85p@u1++xh7&8p+xj-q8-7)*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -47,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'InDesign.urls'
+ROOT_URLCONF = 'InMetrics.urls'
 
-WSGI_APPLICATION = 'InDesign.wsgi.application'
+WSGI_APPLICATION = 'InMetrics.wsgi.application'
 
 
 # Database
